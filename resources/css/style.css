@@ -217,12 +217,14 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
+  width: auto;
   padding: 4rem 5%;
   background-color: #f3f3f3;
 }
 
 .feature {
   flex: 1;
+  max-height: 635px;
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
@@ -305,10 +307,8 @@ header .mobile {
   padding: 0 1%;
 }
 
-#filters-sections .image-container {
-  display: inline-flex;
-  flex-grow: 1;
-  flex-shrink: 1;
+.image-container img {
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
